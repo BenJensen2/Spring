@@ -9,8 +9,4 @@ public class MainController {
 	public String index() {
 		return "index.jsp";
 	}
-	@RequestMapping("/#")
-	public String home() {
-		return "index.jsp";
-	}
 }
